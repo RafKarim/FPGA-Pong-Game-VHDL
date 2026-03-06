@@ -1,0 +1,14 @@
+AR clockdivider behavioral /home/student1/rakarim/Desktop/Project2/Project2/ClockDivider.vhd sub00/vhpl01 1763495660
+EN vgatiminggen NULL /home/student1/rakarim/Desktop/Project2/Project2/VGATimingGen.vhd sub00/vhpl02 1763495661
+AR ila ila_a /home/student1/rakarim/Desktop/Project2/Project2/ipcore_dir/ila.vhd sub00/vhpl13 1763495658
+AR vgatiminggen behavioral /home/student1/rakarim/Desktop/Project2/Project2/VGATimingGen.vhd sub00/vhpl03 1763495662
+AR icon icon_a /home/student1/rakarim/Desktop/Project2/Project2/ipcore_dir/icon.vhd sub00/vhpl11 1763495656
+EN gamelogic NULL /home/student1/rakarim/Desktop/Project2/Project2/GameLogic.vhd sub00/vhpl04 1763495663
+EN icon NULL /home/student1/rakarim/Desktop/Project2/Project2/ipcore_dir/icon.vhd sub00/vhpl10 1763495655
+EN pong NULL /home/student1/rakarim/Desktop/Project2/Project2/PONG.vhd sub00/vhpl08 1763418581
+AR renderer behavioral /home/student1/rakarim/Desktop/Project2/Project2/Renderer.vhd sub00/vhpl07 1763495666
+EN renderer NULL /home/student1/rakarim/Desktop/Project2/Project2/Renderer.vhd sub00/vhpl06 1763495665
+EN clockdivider NULL /home/student1/rakarim/Desktop/Project2/Project2/ClockDivider.vhd sub00/vhpl00 1763495659
+AR gamelogic behavioral /home/student1/rakarim/Desktop/Project2/Project2/GameLogic.vhd sub00/vhpl05 1763495664
+EN ila NULL /home/student1/rakarim/Desktop/Project2/Project2/ipcore_dir/ila.vhd sub00/vhpl12 1763495657
+AR pong structural /home/student1/rakarim/Desktop/Project2/Project2/PONG.vhd sub00/vhpl09 1763495667

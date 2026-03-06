@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/icon.vhd"
+vhdl work "VGATimingGen.vhd"
+vhdl work "Renderer.vhd"
+vhdl work "ipcore_dir/ila.vhd"
+vhdl work "GameLogic.vhd"
+vhdl work "ClockDivider.vhd"
+vhdl work "PONG.vhd"

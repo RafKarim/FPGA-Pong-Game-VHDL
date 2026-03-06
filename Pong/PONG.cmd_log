@@ -1,0 +1,98 @@
+xst -intstyle ise -ifn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/lalayoub/COE758_F2025/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/pkarunak/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2_Modular/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.syr" 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.xst" -ofn "/home/student1/rakarim/Desktop/Project2/Project2/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PONG.ucf -p xc3s500e-fg320-5 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf PONG.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
